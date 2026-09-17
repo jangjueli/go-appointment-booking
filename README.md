@@ -47,7 +47,6 @@ go-appointment-booking/
 
 - Docker
 - Docker Compose
-Go 1.26+ is only required if you want to run the application locally without Docker.
 
 ## Configuration
 
@@ -74,9 +73,9 @@ docker compose up -d --build
 
 Services:
 
-API      http://localhost:8080
-pgAdmin  http://localhost:8081
-Postgres localhost:5432
+- API:      http://localhost:8080
+- pgAdmin:  http://localhost:8081
+- Postgres: localhost:5432
 
 The application automatically runs database migration and seed data on startup.
 
